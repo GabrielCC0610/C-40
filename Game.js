@@ -47,13 +47,13 @@ form.hide();
 Player.getPlayerInfo();
 
 if(allPlayers !== undefined){
-//background(rgb(198, 135, 103))
-//image(track, 0, - displayHeight *4, displayWidth, displayHeight *2);
+ background(rgb(198, 135, 103))
+ image(track, 0, - displayHeight *4, displayWidth, displayHeight *2);
 
 
 var index = 0;
 //posicion de X y Y de los carros
-var x = 330;
+var x = 175;
 var y;
 
 //var display_position = 130;
@@ -96,4 +96,8 @@ gameState = 2
 drawSprites();
 
 } 
+  
+  end(){
+  console.log("Game Ended");
+  }
 }
