@@ -44,9 +44,6 @@ if(gameState === 2){
     drawSprites();
 } 
 
-//end(){
-//console.log("Game Ended");
-//game.update(2);
-//}
+
 
 
